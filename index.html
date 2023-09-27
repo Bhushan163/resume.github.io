@@ -14,6 +14,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
+
 </head>
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
 
@@ -55,11 +56,6 @@
 		</div>
 	</section> <!-- section -->
 
-
-
-
-
-
 	<section class="site-section" id="section-portfolio">
 		<div class="container">
 			<div class="row">
@@ -81,182 +77,173 @@
 				<div class="row grid">
 					<div class="single-portfolio col-sm-4 all web-design">
 						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/my-images/arya.png" alt="">
-							</div>
-							<a href="https://api.arya.ai" class="img-pop-up" target="_blank">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+							<!-- <div class="thumb" onclick="window.open('arya-case-study.html', '_blank');" style="cursor: pointer;" title="Arya APIs Case Study"> -->
+								<div class="thumb" data-toggle="modal" data-target="#apis-case-study" style="cursor: pointer;" title="Arya APIs Case Study">
+									<div class="overlay overlay-bg"></div>
+									<img class="image img-fluid" src="images/my-images/arya.png" alt="">
 								</div>
-							</a>                                  
-						</div>
-						<div class="p-inner">
-							<h4>Arya APIs</h4>
-							<div class="cat">Web design</div>
-						</div>                                         
-					</div>
-					<div class="single-portfolio col-sm-4 all saas-design">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/my-images/sdk.png" alt="">
+								<a href="arya-case-study.html" class="img-pop-up" target="_blank">  
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>                                  
 							</div>
-							<a href="images/p6.jpg" class="img-pop-up" target="_blank">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                
+							<div class="p-inner">
+								<h4>Arya APIs</h4>
+								<div class="cat">Web design</div>
+							</div>                                         
 						</div>
-						<div class="p-inner">
-							<h4>SDK for KYC Process</h4>
-							<div class="cat">SaaS</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all web-design">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/my-images/bluoak.png" alt="">
+						<div class="single-portfolio col-sm-4 all saas-design">
+							<div class="relative">
+								<div class="thumb" data-toggle="modal" data-target="#sdk-case-study" style="cursor: pointer;" title="SDK Case Study">
+									<div class="overlay overlay-bg"></div>
+									<img class="image img-fluid" src="images/my-images/sdk.png" alt="">
+								</div>                        
 							</div>
-							<a href="http://www.bluoakcapital.com/" class="img-pop-up" target="_blank">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                  
-						</div>
-						<div class="p-inner">
-							<h4>Blue Oak Capital</h4>
-							<div class="cat">Web Design</div>
-						</div>                                         
-					</div> 
-					<div class="single-portfolio col-sm-4 all web-design">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/my-images/pov.png" alt="">
+							<div class="p-inner">
+								<h4>SDK for KYC Process</h4>
+								<div class="cat">SaaS</div>
 							</div>
-							<a href="images/p2.jpg" class="img-pop-up" target=_blank>  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                  
 						</div>
-						<div class="p-inner">
-							<h4>POV Brandcom</h4>
-							<div class="cat">Web Design</div>
-						</div>                                         
-					</div>                                                
-					<div class="single-portfolio col-sm-4 all app-design">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/my-images/payzapp.png" alt="">
-							</div>
-							<a href="https://www.povbrandcom.in/" class="img-pop-up" target=_blank>  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+						<div class="single-portfolio col-sm-4 all app-design">
+							<div class="relative">
+								<div class="thumb" data-toggle="modal" data-target="#fs-case-study" style="cursor: pointer;" title="Fashion Station Case Study">
+									<div class="overlay overlay-bg"></div>
+									<img class="image img-fluid" src="images/my-images/fashion.png" alt="">
 								</div>
-							</a> 
+								<!-- <a href="#" class="img-pop-up">  
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>           -->                      
+							</div> 
+							<div class="p-inner">
+								<h4>Fashion Station</h4>
+								<div class="cat">Mobile App Design</div>
+							</div>
+						</div>
+						<div class="single-portfolio col-sm-4 all web-design">
+							<div class="relative">
+								<div class="thumb" onclick="location.href='http://www.bluoakcapital.com/', target='_blank';" style="cursor: pointer;" title="Blue Oak Capital">
+									<div class="overlay overlay-bg"></div>
+									<img class="image img-fluid" src="images/my-images/bluoak.png" alt="">
+								</div>
+								<a href="http://www.bluoakcapital.com/" class="img-pop-up" target="_blank">  
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>                                  
+							</div>
+							<div class="p-inner">
+								<h4>Blue Oak Capital</h4>
+								<div class="cat">Web Design</div>
+							</div>                                         
+						</div> 
+						<div class="single-portfolio col-sm-4 all web-design">
+							<div class="relative">
+								<div class="thumb" onclick="location.href='https://www.povbrandcom.in/', target='_blank';" style="cursor: pointer;" title="POV Brandcom">
+									<div class="overlay overlay-bg"></div>
+									<img class="image img-fluid" src="images/my-images/pov.png" alt="">
+								</div>
+								<a href="https://www.povbrandcom.in/" class="img-pop-up" target=_blank>  
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>                                  
+							</div>
+							<div class="p-inner">
+								<h4>POV Brandcom</h4>
+								<div class="cat">Web Design</div>
+							</div>                                         
+						</div>                                                
+						<div class="single-portfolio col-sm-4 all app-design">
+							<div class="relative">
+								<div class="thumb">
+									<div class="overlay overlay-bg"></div>
+									<img class="image img-fluid" src="images/my-images/payzapp.png" alt="">
+								</div>
+								<a href="https://www.povbrandcom.in/" class="img-pop-up" target=_blank>  
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a> 
 
-						</div>
-						<div class="p-inner">
-							<h4>HDFC Bank PayZapp</h4>
-							<div class="cat">Mobile App Design</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all app-design">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/my-images/smarthub.png" alt="">
 							</div>
-							<a href="images/p4.jpg" class="img-pop-up" target=_blank>  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                
-						</div> 
-						<div class="p-inner">
-							<h4>HDFC Bank SmartHub</h4>
-							<div class="cat">Mobile App Design</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all app-design">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/my-images/mobilebanking.png" alt="">
+							<div class="p-inner">
+								<h4>HDFC Bank PayZapp</h4>
+								<div class="cat">Mobile App Design</div>
 							</div>
-							<a href="images/p4.jpg" class="img-pop-up" target=_blank>  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                
-						</div> 
-						<div class="p-inner">
-							<h4>HDFC MobileBanking LITE</h4>
-							<div class="cat">Mobile App Design</div>
 						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all app-design">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/my-images/united.png" alt="">
+						<div class="single-portfolio col-sm-4 all app-design">
+							<div class="relative">
+								<div class="thumb">
+									<div class="overlay overlay-bg"></div>
+									<img class="image img-fluid" src="images/my-images/smarthub.png" alt="">
+								</div>
+								<a href="images/p4.jpg" class="img-pop-up" target=_blank>  
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>                                
+							</div> 
+							<div class="p-inner">
+								<h4>HDFC Bank SmartHub</h4>
+								<div class="cat">Mobile App Design</div>
 							</div>
-							<a href="images/p4.jpg" class="img-pop-up" target=_blank>  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                
-						</div> 
-						<div class="p-inner">
-							<h4>BHIM United UPI App</h4>
-							<div class="cat">Mobile App Design</div>
 						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all app-design">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/my-images/fashion.png" alt="">
+						<div class="single-portfolio col-sm-4 all app-design">
+							<div class="relative">
+								<div class="thumb">
+									<div class="overlay overlay-bg"></div>
+									<img class="image img-fluid" src="images/my-images/mobilebanking.png" alt="">
+								</div>
+								<a href="images/p4.jpg" class="img-pop-up" target=_blank>  
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>                                
+							</div> 
+							<div class="p-inner">
+								<h4>HDFC MobileBanking LITE</h4>
+								<div class="cat">Mobile App Design</div>
 							</div>
-							<a href="images/p4.jpg" class="img-pop-up" target="_blank">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                
-						</div> 
-						<div class="p-inner">
-							<h4>Fashion Station</h4>
-							<div class="cat">Mobile App Design</div>
 						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all graphic-design">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/my-images/banner.png" alt="">
+						<div class="single-portfolio col-sm-4 all app-design">
+							<div class="relative">
+								<div class="thumb">
+									<div class="overlay overlay-bg"></div>
+									<img class="image img-fluid" src="images/my-images/united.png" alt="">
+								</div>
+								<a href="images/p4.jpg" class="img-pop-up" target=_blank>  
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>                                
+							</div> 
+							<div class="p-inner">
+								<h4>BHIM United UPI App</h4>
+								<div class="cat">Mobile App Design</div>
 							</div>
-							<a href="images/p5.jpg" class="img-pop-up" target="_blank">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                
 						</div>
-						<div class="p-inner">
-							<h4>Banner's & Poster's</h4>
-							<div class="cat">Graphic Design</div>
+						<div class="single-portfolio col-sm-4 all graphic-design">
+							<div class="relative">
+								<div class="thumb" data-toggle="modal" data-target="#graphics" style="cursor: pointer;" title="Banner's & Poster's">
+									<div class="overlay overlay-bg"></div>
+									<img class="image img-fluid" src="images/my-images/banner.png" alt="">
+								</div>                     
+							</div>
+							<div class="p-inner">
+								<h4>Banner's & Poster's</h4>
+								<div class="cat">Graphic Design</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 	</section>
-	<!-- .section -->
+		<!-- .section -->
 
-	
+
 	<section class="site-section" id="section-resume">
 		<div class="container">
 			<div class="row">
@@ -288,7 +275,7 @@
 						<p>I was introduced to the exciting world of technology, gaining foundational knowledge and skills that set the stage for my journey into the technical field.</p>
 						<span class="school">Tilak Maharashtra University, Pune</span>
 					</div>
-					
+
 
 				</div>
 				<div class="col-md-6">
@@ -337,7 +324,7 @@
 
 					<p>
 						<!-- <a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a> -->
-						<a href="Bhushan_Ahirrao_CV.pdf" class="btn btn-secondary px-4 py-2 btn-sm" download>Download CV</a>
+						<a href="Bhushan_Ahirrao_CV.pdf" class="btn btn-secondary px-4 py-2 btn-sm" download="">Download CV</a>
 					</p>
 				</div>
 			</div>
@@ -346,62 +333,7 @@
 		</div>
 	</section>
 
-	
 
-
-	<section class="site-section pb-0 d-none"  id="section-services">
-		<div class="container">
-
-			<div class="row mb-4">
-				<div class="col-md-12">
-					<div class="section-heading text-center">
-						<h2>My <strong>Services</strong></h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-
-				<div class="col-md-6 col-lg-4 text-center mb-5">
-					<div class="site-service-item site-animate" data-animate-effect="fadeIn">
-						<span class="icon">
-							<span class="icon-browser2"></span>
-						</span>
-						<h3 class="mb-4">Web Design</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						<p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-4 text-center mb-5">
-					<div class="site-service-item site-animate" data-animate-effect="fadeIn">
-						<span class="icon">
-							<span class="icon-presentation"></span>
-						</span>
-						<h3 class="mb-4">Search Engine Optimization</h3>
-						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-						<p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-4 text-center mb-5">
-					<div class="site-service-item site-animate" data-animate-effect="fadeIn">
-						<span class="icon">
-							<span class="icon-video2"></span>
-						</span>
-						<h3 class="mb-4">Video Editing</h3>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-						<p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
-					</div>
-				</div>
-
-				
-
-			</div>
-		</div>
-	</section>
-
-
-	
-
-	
 
 	<section class="site-section" id="section-contact">
 		<div class="container">
@@ -465,7 +397,7 @@
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</p>
 			</div>
-			
+
 			<div class="row mb-5 d-none">
 				<div class="col-md-12 text-center">
 					<p>
@@ -477,7 +409,7 @@
 					</p>
 				</div>
 			</div>
-			
+
 		</div>
 	</footer>
 
@@ -499,8 +431,667 @@
 	<script src="js/custom.js"></script>
 
 	<!-- Google Map -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    	<script src="js/google-map.js"></script> -->
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script> -->
 
-    </body>
-    </html>
+	<!------------------------------------------------------------ KYC SDK ------------------------------------------>
+	<div class="modal fade case-study-modals" id="sdk-case-study">
+		<button type="button" class="close" data-dismiss="modal" style="color: #fff; position: absolute;right: 90px; top: 22px; cursor: pointer; z-index: 9999;">&times;</button>
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<!-- Modal body -->
+				<div class="modal-body">
+					<div class="container-fluid p-0">
+						<img class="img-fluid" src="images/my-images/sdk-banner.png" alt="banner" title="banner" width="100%">
+					</div>
+					<div id="userp" class="container mt-5 mb-5">
+						<h2 class="text-center mb-5"><strong>Introduction</strong></h2>
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-md-6 text-left">
+								<p class="mb-2"><strong style="color: #fff;">Project: </strong>Customer Onboarding SDK for Insurance Companies</p>
+								<p class="mb-2"><strong style="color: #fff;">Company: </strong>Arya.ai</p>
+								<p class="mb-2"><strong style="color: #fff;">Duration: </strong>October 2022 - December 2023</p>
+								<p class="mb-2"><strong style="color: #fff;">Team: </strong>UX/UI Designer, Developers, Product Managers</p>
+								<p class="mb-2"><strong style="color: #fff;">Clients: </strong>Initially it was only for ICICI Lombard but now it is being used by TATA AIG, Reliance Digital Insurance, Future Generali Insurance, Liberty General Insurance, Mahindra Insurance Brokers Ltd</p>
+								<p class="mb-2"><strong style="color: #fff;">Scope: </strong>Millions of users nationwide</p>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div id="userp" class="container mt-5 mb-5">
+						<h2 class="text-center mb-5">Problem<strong> Statement</strong></h2>
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-md-6 text-left">
+								<p>The Insurance Regulatory and Development Authority of India (IRDAI) mandated the use of Know Your Customer (KYC) documents like PAN, AADHAAR, CKYC, and other Proof of Identity (POI) and Proof of Address (POA) documents for customer onboarding by insurance companies starting from January 2023. Our company embarked on a mission to create an SDK that streamlines and simplifies the onboarding process for these insurance giants while ensuring a seamless experience for millions of users across India.</p>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div id="userp" class="container mt-5 mb-5">
+						<h2 class="text-center mb-5">Research <strong>Phase</strong></h2>
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-md-6 text-left">
+								<h4>User Research</h4>
+								<ol class="pl-3">
+									<li><strong style="color: #fff;">Stakeholder Interviews:</strong> Conducted interviews with key stakeholders at each insurance company to understand their unique onboarding challenges, regulatory concerns, and technology constraints.</li>
+									<li><strong style="color: #fff;">User Surveys:</strong> Administered surveys to policyholders and insurance agents to gather insights into their expectations, pain points, and preferences during the onboarding journey.</li>
+								</ol>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-md-6 text-left">
+								<h4>Competitive Analysis</h4>
+								<p>Analyzed existing solutions in the market to identify gaps and opportunities. Studied best practices in the insurance industry and relevant SDKs in other sectors for inspiration.</p>
+							</div>
+						</div>
+					</div>
+					<hr>
+					
+					<div class="container-fluid p-0 mt-4">
+						<h2 class="text-center mb-3"><strong>UI</strong> Design</h2>
+					</div>
+
+					<div class="container mt-4">
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-md-4 mt-4">
+								<h4 class="">1. Visual Identity</h4>
+								<p class="span1">Created a professional and trustworthy visual identity consistent with the branding of our client insurance companies.</p>
+								<div class="row">
+									<div class="col-lg-6 col-md-6 mb-3">
+										<img src="images/my-images/sdk-1.png" class="" style="border-radius: 4px;">
+									</div>
+									<div class="col-lg-6 col-md-6 mb-3">
+										<img src="images/my-images/sdk-2.png" class="" style="border-radius: 4px;">
+									</div>
+									<div class="col-lg-6 col-md-6 mb-3">
+										<img src="images/my-images/sdk-3.png" class="" style="border-radius: 4px;">
+									</div>
+									<div class="col-lg-6 col-md-6 mb-3">
+										<img src="images/my-images/sdk-4.png" class="" style="border-radius: 4px;">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12 col-sm-12 col-md-4 mt-4">
+								<h4 class="">2. Color Scheme</h4>
+								<p class="span1">Utilized colors that convey trust and security, adhering to industry standards. Also maintained to symmetry of clients UI design.</p>
+								<div class="row">
+									<div class="col-lg-6 text-center">
+										<div class="float-left mr-4">
+											<span style="display: inline-block; background:#a31816; height: 40px; width: 40px; border-radius: 50%"></span>
+											<p class="mb-0">#a31816</p>
+											<p>Primary Color</p>
+										</div>
+										<div class="float-left mr-4">
+											<span style="display: inline-block; background:#fdf6f6; height: 40px; width: 40px; border-radius: 50%"></span>
+											<p class="mb-0">#fdf6f6</p>
+											<p>Secondary Color</p>
+										</div>
+										<div class="float-left">
+											<span style="display: inline-block; background:#212529; height: 40px; width: 40px; border-radius: 50%"></span>
+											<p class="mb-0">#212529</p>
+											<p>Text Color</p>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									<div class="col-lg-6 text-center d-none">
+										<div class="float-left mr-4">
+											<span style="display: inline-block; background:#3c6eb8; height: 40px; width: 40px; border-radius: 50%"></span>
+											<p class="mb-0">#3c6eb8</p>
+											<p>Primary Color</p>
+										</div>
+										<div class="float-left mr-4">
+											<span style="display: inline-block; background:#e0edff; height: 40px; width: 40px; border-radius: 50%"></span>
+											<p class="mb-0">#e0edff</p>
+											<p>Secondary Color</p>
+										</div>
+										<div class="float-left">
+											<span style="display: inline-block; background:#212529; height: 40px; width: 40px; border-radius: 50%"></span>
+											<p class="mb-0">#212529</p>
+											<p>Text Color</p>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12 col-sm-12 col-md-4 mt-4">
+								<h4 class="">3. Typography</h4>
+								<p class="span1">Selected legible fonts for improved accessibility.<br>
+									<span style="color: #fff">Font-family: <strong>'Mulish', sans-serif;</strong></span>
+								</p>
+								
+							</div>
+							<div class="col-lg-12 col-sm-12 col-md-4 mt-4">
+								<h4 class="">4. Responsive Design</h4>
+								<p class="span1">Ensured the SDK is adaptable to various screen sizes and devices.</p>
+								<div class="row">
+									<div class="col-lg-4 col-md-6 mb-3">
+										<img src="images/my-images/sdk-1-m.png" class="img-fluid" style="border-radius: 4px;">
+									</div>
+									<div class="col-lg-4 col-md-6 mb-3">
+										<img src="images/my-images/sdk-2-m.png" class="img-fluid" style="border-radius: 4px;">
+									</div>
+									<div class="col-lg-4 col-md-6 mb-3">
+										<img src="images/my-images/sdk-3-m.png" class="img-fluid" style="border-radius: 4px;">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<hr>
+
+					<div class="container mt-5 mb-5">
+						<h2 class="text-center mb-5">Development <strong>Phase</strong></h2>
+						<p>Collaborated closely with developers to ensure seamless implementation of the designed solution. Continuous design reviews, code handoffs, and close communication facilitated a smooth development process.</p>
+					</div>
+					<hr>
+
+				
+
+					<div class="container mt-5 mb-5">
+						<h2 class="text-center mb-5">Testing and <strong>Iteration</strong></h2>
+						<p>Conducted extensive usability testing with insurance agents and policyholders to identify and address usability issues, bottlenecks, and any discrepancies in the onboarding process. Iterative design adjustments were made based on user feedback.</p>
+					</div>
+					<hr>
+
+					<div id="userp" class="container mt-5 mb-5">
+						<h2 class="text-center mb-5"><strong>Results</strong></h2>
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-md-6 text-left">
+								<h4>User Adoption</h4>
+								<p>The SDK seamlessly integrated into the onboarding workflows of all six major insurance companies, causing minimal disruption and accelerating their customer acquisition processes.</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-md-6 text-left">
+								<h4>Enhanced Efficiency</h4>
+								<p>Insurance agents reported a remarkable reduction in onboarding time, resulting in increased productivity and higher customer satisfaction.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-md-6 text-left">
+								<h4>Future Enhancements</h4>
+								<ol class="pl-3">
+									<li><strong style="color: #fff;">Biometric Verification:</strong> Implement biometric authentication for enhanced security.</li>
+									<li><strong style="color: #fff;">Multi-Language Support:</strong> Expand language support to cater to a more diverse user base.</li>
+									<li><strong style="color: #fff;">Integration with e-Signatures:</strong> Enable electronic signatures for a fully paperless onboarding experience.</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+					<hr>
+					
+					<div class="container mt-5">
+						<h2 class="text-center mb-5"><strong>Conclusion</strong></h2>
+						<p>The Customer Onboarding SDK for Insurance Companies successfully addressed the regulatory requirements imposed by IRDAI while delivering a seamless and user-centric experience for both insurance agents and policyholders. Our commitment to ongoing feedback and future enhancements ensures that the SDK remains a valuable asset, poised to evolve in response to the ever-changing landscape of the insurance industry.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!------------------------------------------------------------ KYC SDK ------------------------------------------>
+
+	<!------------------------------------------------------------ APIs Station ------------------------------------------>
+	<div class="modal fade case-study-modals" id="apis-case-study">
+		<button type="button" class="close" data-dismiss="modal" style="color: #fff; position: absolute;right: 90px; top: 22px; cursor: pointer; z-index: 9999;">&times;</button>
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<!-- Modal body -->
+				<div class="modal-body">
+					<div class="container-fluid p-0">
+						<img class="img-fluid" src="images/apis/arya-apis-banner.png" alt="banner" title="banner" width="100%">
+					</div>
+					<div id="userp" class="container mt-5 mb-5">
+						<h2 class="text-center mb-5"><strong>Introduction</strong></h2>
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-md-6 text-left">
+								<h5>Project Overview</h5>
+								<p>The AI API Marketplace is an online platform designed to provide users of all ages and backgrounds with a simple and accessible way to explore, demo, subscribe to, and manage various AI APIs. This case study will focus on the user experience (UX) and user interface (UI) design process for this platform, with an emphasis on usability and accessibility. The platform also offers one-click login options using Gmail and Twitter to streamline the registration process.</p>
+
+								<h5>Objective</h5>
+								<p>Create a user-friendly, visually appealing, and intuitive platform that allows users to easily discover, try, subscribe to, and manage AI APIs.</p>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div id="userp" class="container mt-5 mb-5">
+						<h2 class="text-center mb-5">Research <strong>Phase</strong></h2>
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-md-6 text-left">
+								<h4>User Personas</h4>
+								<p>To better understand our target audience, we identified three user personas:</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-4 col-md-6 mb-3">
+								<h5 style="font-size: 18px;">Ajay (Developer)</h5>
+								<ul class="pl-3">
+									<li>Age: <strong>28</strong></li>
+									<li>Background: <strong>Software developer</strong></li>
+									<li>Goal: <strong>Find and integrate AI APIs into projects efficiently.</strong></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-6 mb-3">
+								<h5 style="font-size: 18px;">Esha (Student)</h5>
+								<ul class="pl-3">
+									<li>Age: <strong>20</strong></li>
+									<li>Background: <strong>Computer science student</strong></li>
+									<li>Goal: <strong>Learn about AI technology through hands-on experience.</strong></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-6 mb-3">
+								<h5 style="font-size: 18px;">Ashutosh (Business Owner)</h5>
+								<ul class="pl-3">
+									<li>Age: <strong>45</strong></li>
+									<li>Background: <strong>Entrepreneur</strong></li>
+									<li>Goal: <strong>Explore AI APIs for potential business applications.</strong></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-md-6 text-left">
+								<h4>User Needs</h4>
+								<p>Based on user personas, we identified key user needs:</p>
+
+								<ul class="pl-3">
+									<li><strong style="color: #fff;">Discover APIs:</strong> Users want an easy way to find and explore different AI APIs.</li>
+									<li><strong style="color: #fff;">Demo APIs:</strong> Users should be able to test APIs before subscribing.</li>
+									<li><strong style="color: #fff;">Subscribe and Pay:</strong> Seamless subscription and payment processes.</li>
+									<li><strong style="color: #fff;">Dashboard:</strong> An intuitive dashboard to manage API subscriptions.</li>
+									<li><strong style="color: #fff;">One-Click Login:</strong> Quick registration using Gmail and Twitter.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div id="userp" class="container mt-5 mb-5">
+						<h2 class="text-center mb-5">Design <strong>Phase</strong></h2>
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-md-6 text-left">
+								<h4 class="mb-4">Information Architecture</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-4 col-md-6 mb-3">
+								<h5 style="font-size: 18px;">Homepage:</h5>
+								<ul class="pl-3">
+									<li>Dropdown in navigation for discovering APIs</li>
+									<li>Featured APIs section</li>
+									<li>One-click login options</li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-6 mb-3">
+								<h5 style="font-size: 18px;">API Listings:</h5>
+								<ul class="pl-3">
+									<li>Clear API descriptions</li>
+									<li>Demo buttons for testing</li>
+									<li>Subscription options and pricing</strong></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-6 mb-3">
+								<h5 style="font-size: 18px;">Dashboard:</h5>
+								<ul class="pl-3">
+									<li>List of subscribed APIs</li>
+									<li>Subscription management options</li>
+									<li>Billing and payment history</strong></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<hr>
+					
+					<div class="container mt-5 mb-5">
+						<h2 class="text-center mb-5"><strong>Wireframes</strong></h2>
+						<div class="row text-center">
+							<div class="col-lg-4 col-md-6 mb-3">
+								<img class="img-fluid" src="images/apis/apis-homepage.png" alt="api-homepage">
+							</div>
+							<div class="col-lg-4 col-md-6 mb-3">
+								<img class="img-fluid" src="images/apis/apis-listing.png" alt="api-listing">
+							</div>
+							<div class="col-lg-4 col-md-6 mb-3">
+								<img class="img-fluid" src="images/apis/apis-dashboard.png" alt="api-dashboard">
+							</div>
+						</div>
+					</div>
+					<hr>
+
+					
+
+					<div class="container-fluid p-0 mt-4">
+						<h2 class="text-center mb-3"><strong>UI</strong> Design</h2>
+					</div>
+
+					<div class="container mt-4">
+						<div class="row">
+							<div class="col-lg-4 col-sm-12 col-md-4 mt-4 text-center">
+								<h4 class="mb-4">Color Pallete</h4>
+								<p class="span1"></p>
+								<p style="color:#fff; background: #074383; padding: 4px;" class="text-center"><strong>#074383</strong></p>
+								<p class="span2"></p>
+								<p style="color:#fff; background: #27aae1; padding: 4px;" class="text-center"><strong>#27aae1</strong></p>
+							</div>
+							<div class="col-lg-4 col-sm-12 col-md-4 mt-4 text-center">
+								<h4 class="mb-3">Typography</h4>
+								<p class="mb-2"><strong>Heading: Open Sans Bold</strong></p>
+									<p class="mb-2"><strong>Sub-Heading: Open Sans Semibold</strong></p>
+									<p class="mb-2"><strong>Body Text: Open Sans Regular</strong></p>
+									
+							</div>
+							<div class="col-lg-4 col-sm-12 col-md-4 mt-4 text-center">
+									<h4 class=" mb-3">UI Elements</h4>
+									<p class="button mb-2"><strong>Buttons:</strong> Clean, rounded edges, <span class="p-1" style="color: #fff; background: #074383; font-size: 12px; border-radius: 4px;">#074383</span> for CTAs, <span class="p-1" style="color: #074383; background: #fff; border:1px solid #074383; font-size: 12px; border-radius: 4px;">#ffffff</span> for secondary actions</p>
+
+									<p class="button mb-2"><strong>Cards:</strong> Neat, organized cards for API listings.</p>
+									<p class="button mb-2"><strong>Forms:</strong> Simple, user-friendly forms for login and registration.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr>
+
+					<div class="container mt-5 mb-5">
+						<h2 class="text-center mb-5">Testing and <strong>Iteration</strong></h2>
+						<p>We conducted usability tests with a diverse group of users and gathered feedback. Key findings included:</p>
+						<ul class="pl-3">
+							<li>Users found the platform easy to navigate and understood the purpose quickly.</li>
+							<li>One-click login options were appreciated for their convenience.</li>
+							<li>Minor adjustments were made based on user feedback, such as clarifying API descriptions and simplifying the subscription process.</li>
+						</ul>
+					</div>
+					<hr>
+
+					<div class="container mt-5 mb-5">
+						<h2 class="text-center mb-5">Final <strong>Design</strong></h2>
+						<div class="row">
+							<div class="col-lg-4 col-sm-12 col-md-4">
+								<h4 class="text-center mb-3">Homepage</h4>
+								<img class="img-fluid border" src="images/apis/homepage-ui.png" alt="Homepage UI" title="Homepage UI" width="100%">
+							</div>
+							<div class="col-lg-4 col-sm-12 col-md-4">
+								<h4 class="text-center mb-3">API Listings</h4>
+								<img class="img-fluid border" src="images/apis/api-listing-ui.png" alt="API Listing" title="API Listing" width="100%">
+							</div>
+							<div class="col-lg-4 col-sm-12 col-md-4">
+								<h4 class="text-center mb-3">API View Page</h4>
+								<img class="img-fluid border" src="images/apis/api-view-ui.png" alt="API View Page" title="API View Page" width="100%">
+							</div>
+						</div>
+					</div>
+					<hr>
+
+					<div class="container mt-5">
+						<h2 class="text-center mb-5"><strong>Conclusion</strong></h2>
+						<p>The AI API Marketplace successfully provides a simple and accessible platform for users of all ages and backgrounds to explore, demo, subscribe to, and manage AI APIs. By incorporating user feedback, emphasizing usability and accessibility, and offering one-click login options, we have created an intuitive and engaging user experience.</p>
+						<p>Future iterations may include additional API categories, user reviews, and advanced subscription management features to further enhance the platform's functionality and user satisfaction.</p>
+						<p>
+							You can access the Arya APIs Marketplace by simply clicking on the link 
+							<a href="https://api.arya.ai" target="_blank">https://api.arya.ai</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!------------------------------------------------------------ APIs Station ------------------------------------------>
+
+
+	<!------------------------------------------------------------ Fashion Station ------------------------------------------>
+	<div class="modal fade case-study-modals" id="fs-case-study">
+		<button type="button" class="close" data-dismiss="modal" style="color: #fff; position: absolute;right: 90px; top: 22px; cursor: pointer; z-index: 9999;">&times;</button>
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<!-- Modal body -->
+				<div class="modal-body">
+					<div class="container-fluid p-0">
+						<img class="img-fluid" src="images/fs/banner.png" alt="banner" title="banner" width="100%">
+					</div>
+
+					<div id="userp" class="container mt-5 mb-5">
+						<h2 class="text-center mb-5">User <strong>Persona</strong></h2>
+						<div class="row">
+							<div class="col-lg-5 col-sm-12 col-md-6 text-center">
+								<img class="img-fluid mb-3" src="images/fs/person1.png" alt="user" title="person" style="width: 40px;">
+								<p class="text-center"><strong>Name:</strong>Pratik Jadhav <br>
+									<strong> Age:</strong> 27<br>
+									<strong>Location:</strong> Navi Mumbai<br>
+									<strong>Occupation:</strong> Software Engineer
+								</p>
+							</div>
+							<div class="col-lg-7 col-sm-12 col-md-6 text-left">
+								<p><strong>User Scenario</strong>:<br> As he is an Engineer, He cant manage to
+								go to market and shop for himself.</p>
+								<p><strong>User Need:</strong><br> He wants to shop the latest trends of 
+									fashion online, without going out and disturbing his work.
+								</p>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="container mt-5 mb-4 text-center">
+						<div class="row">
+							<div class="col-lg-4 col-sm-12 col-md-4">
+								<h2 class="text-center mb-3">Business <strong>Goal</strong></h2>
+								<p>To provide a user premium
+									subscription with minimum cost and
+								increase our sell.</p>
+							</div>
+							<div class="col-lg-4 col-sm-12 col-md-4">
+								<h2 class="text-center mb-3">Usability <strong>Goal</strong></h2>
+								<p>To provide user all type of
+									clothes with different brands
+								on one app. </p>
+							</div>
+							<div class="col-lg-4 col-sm-12 col-md-4">
+								<h2 class="text-center mb-3">References</h2>
+								<p>www.flipkart.in<br>
+								www.shein.in</p>
+							</div>
+						</div>
+					</div>
+					<hr>
+
+					<div class="container-fluid p-0 mt-5 mb-5">
+						<h2 class="text-center mb-5">App <strong>Navigation</strong></h2>
+						<img class="img-fluid" src="images/fs/App Navigation.png" alt="App Navigation" title="App Navigation" width="100%">
+					</div>
+					<hr>
+
+					<div class="container-fluid p-0 mt-5 mb-5">
+						<h2 class="text-center mb-5">User <strong>Flow Chart</strong></h2>
+						<img class="img-fluid" src="images/fs/App-Flow-Chart.png" alt="App-Flow-Chart" title="App-Flow-Chart" width="100%">
+					</div>
+					<hr>
+
+					<div class="container-fluid p-0 mt-5 mb-5">
+						<h2 class="text-center mb-5">User <strong>Journey</strong></h2>
+						<img class="img-fluid" src="images/fs/user-journey.png" alt="User-Journey" title="User-Journey" width="100%">
+					</div>
+					<hr>
+
+
+					<div class="container-fluid p-0 mt-4">
+						<h2 class="text-center mb-3"><strong>Style</strong> Guide</h2>
+						<h4 class="text-center mb-3"><strong>Logo</strong> Process</h4>
+						<img class="img-fluid" src="images/fs/Logo-process.png" alt="Logo-process" title="Logo-process" width="100%">
+					</div>
+
+					<div class="container-fluid p-0 mt-4">
+						<div class="row">
+							<div class="col-lg-4 col-sm-12 col-md-4 mt-4">
+								<h4 class="text-center mb-4">Color Pallete</h4>
+								<p class="span1"></p>
+								<p style="color:#ec008c" class="text-center"><strong>#ec008c</strong></p>
+								<p class="span2"></p>
+								<p style="color:#27aae1" class="text-center"><strong>#27aae1</strong></p>
+							</div>
+							<div class="col-lg-4 col-sm-12 col-md-4 mt-4 text-center">
+								<h4 class="text-center mb-3">Typography</h4>
+								<p><strong>Typeface</strong>
+									<br> Roboto</p>
+									<p><strong>Heading</strong><br> 
+									64px Bold</p>
+									<p><strong>Sub-Heading</strong><br>
+									42px Regular</p>
+								</div>
+								<div class="col-lg-4 col-sm-12 col-md-4 mt-4 text-center">
+									<h4 class="text-center mb-3">Button</h4>
+									<p class="button">Button</p>
+									<p>Background color: #27aae1<br>Text color: #ffffff</p>
+								</div>
+							</div>
+						</div>
+
+						<hr>
+
+						<div class="container-fluid p-0 mt-5 mb-5">
+							<h2 class="text-center mb-5">Layout <strong>(Android)</strong></h2>
+							<div class="row">
+								<div class="col-lg-4 col-sm-12 col-md-4">
+									<h4 class="text-center mb-3">Spash Screen</h4>
+									<img class="img-fluid border" src="images/fs/1.1-Splash-Screen.png" alt="1.1-Splash-Screen" title="1.1-Splash-Screen" width="100%">
+								</div>
+								<div class="col-lg-4 col-sm-12 col-md-4">
+									<h4 class="text-center mb-3">Login</h4>
+									<img class="img-fluid border" src="images/fs/1.2-Login-Screen.png" alt="1.2-Login-Screen" title="1.2-Login-Screen" width="100%">
+								</div>
+								<div class="col-lg-4 col-sm-12 col-md-4">
+									<h4 class="text-center mb-3">Dashboard</h4>
+									<img class="img-fluid border" src="images/fs/1.3-Dashboard-Screen.png" alt="1.3-Dashboard-Screen" title="1.3-Dashboard-Screen" width="100%">
+								</div>
+							</div>
+						</div>
+						<hr>
+
+						<div class="container-fluid p-0 mt-5 mb-5">
+							<h2 class="text-center mb-5">Layout Version <strong>(Android)</strong></h2>
+							<div class="row">
+								<div class="col-lg-4 col-sm-12 col-md-4">
+									<h4 class="text-center mb-3">Spash Screen</h4>
+									<img class="img-fluid border" src="images/fs/2.1-Splash-Screen.png" alt="2.1-Splash-Screen" title="2.1-Splash-Screen" width="100%">
+								</div>
+								<div class="col-lg-4 col-sm-12 col-md-4">
+									<h4 class="text-center mb-3">Login</h4>
+									<img class="img-fluid border" src="images/fs/2.2-Login-Screen.png" alt="2.2-Login-Screen" title="2.2-Login-Screen" width="100%">
+								</div>
+								<div class="col-lg-4 col-sm-12 col-md-4">
+									<h4 class="text-center mb-3">Dashboard</h4>
+									<img class="img-fluid border" src="images/fs/2.3-Dashboard-Screen.png" alt="1.3-Dashboard-Screen" title="2.3-Dashboard-Screen" width="100%">
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="container-fluid p-0 mt-5">
+							<h2 class="text-center mb-5">Layout <strong>(IOS)</strong></h2>
+							<div class="row">
+								<div class="col-lg-4 col-sm-12 col-md-4">
+									<h4 class="text-center mb-3">Spash Screen</h4>
+									<img class="img-fluid border" src="images/fs/3.1-Splash-Screen.png" alt="3.1-Splash-Screen" title="3.1-Splash-Screen" width="100%">
+								</div>
+								<div class="col-lg-4 col-sm-12 col-md-4">
+									<h4 class="text-center mb-3">Login</h4>
+									<img class="img-fluid border" src="images/fs/3.2-Login-Screen.png" alt="3.2-Login-Screen" title="3.2-Login-Screen" width="100%">
+								</div>
+								<div class="col-lg-4 col-sm-12 col-md-4">
+									<h4 class="text-center mb-3">Dashboard</h4>
+									<img class="img-fluid border" src="images/fs/3.3-Dashboard-Screen.png" alt="3.3-Dashboard-Screen" title="3.3-Dashboard-Screen" width="100%">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+	<!------------------------------------------------------------ Fashion Station ------------------------------------------>
+
+	<!------------------------------------------------------------ KYC SDK ------------------------------------------>
+	<div class="modal fade case-study-modals" id="graphics">
+		<button type="button" class="close" data-dismiss="modal" style="color: #fff; position: absolute;right: 90px; top: 22px; cursor: pointer; z-index: 9999;">&times;</button>
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<!-- Modal body -->
+				<div class="modal-body">
+					
+					<div id="userp" class="container mt-5 mb-5">
+						<h2 class="text-center mb-5"><strong>Overview</strong></h2>
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-md-6 text-left">
+								<p class="mb-2">Welcome to my graphic design portfolio, where I showcase my creative journey through various projects, each with its unique challenges and opportunities. As a UX/UI cum graphic designer, I have had the privilege to work on a diverse range of projects, including web and mobile banners, printable posters, ID cards, and monthly insight reports. Here's a glimpse into my portfolio</p>
+							</div>
+						</div>
+					</div>
+					
+					<div id="userp" class="container mt-5 mb-5">
+						<h2 class="text-center mb-5"><strong>Web and Mobile Banners</strong></h2>
+						<div class="row">
+							<div class="col-lg-6">
+								<img src="images/Desktop-Banner-1.png" class="img-fluid" style="margin-bottom: 30px;">
+								<img src="images/Mobile-Banner-3.png" class="img-fluid mb-3">
+							</div>
+							<div class="col-lg-6">
+								<img src="images/Desktop-Banner-4.png" class="img-fluid" style="margin-bottom: 30px;">
+								<img src="images/Mobile-Banner-4.png" class="img-fluid mb-3">
+							</div>
+						</div>
+					</div>
+					<div id="userp" class="container mt-5 mb-5">
+						<h2 class="text-center mb-5"><strong>Printable Posters / Brochures</strong></h2>
+							<div class="row">
+								<div class="col-lg-6">
+									<img src="images/Poster-1.png" class="img-fluid" style="margin-bottom: 30px;">
+									<img src="images/Brochure-Outside.png" class="img-fluid mb-3">
+								</div>
+								<div class="col-lg-6">
+									<img src="images/Poster-2.png" class="img-fluid" style="margin-bottom: 30px;">
+									<img src="images/Brochure-Inside.png" class="img-fluid mb-3">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="userp" class="container mt-5 mb-5">
+						<h2 class="text-center mb-5"><strong>Monthly Insight Report</strong></h2>
+							<div class="row justify-content-center">
+								<div class="col-lg-8">
+									<embed src="images/AryaAPIs-insights-the-paradigm-shift-in-Customer-Onboarding-ckyc-april-2023.pdf#view=fit" type="application/pdf" width="100%" height="1020px">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!------------------------------------------------------------ KYC SDK ------------------------------------------>
+
+	</body>
+	</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
